@@ -1,0 +1,186 @@
+<!-- fragment_sheild.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!-- Phone Number 1 EditText -->
+
+    <!-- Phone Number 2 EditText -->
+    <EditText
+        android:id="@+id/phoneEditText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/black"
+        android:hint="Phone Number 1"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/black"
+        android:textColorHint="#6a7274"
+        android:textStyle="italic"
+        android:elevation="20sp"
+        />
+
+    <EditText
+        android:id="@+id/phoneEditText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneEditText1"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/black"
+        android:hint="Phone Number 2"
+        android:textColor="@color/black"
+        android:textColorHint="#6a7274"
+        android:textStyle="italic"
+        android:elevation="20sp"/>
+
+    <!-- Phone Number 3 EditText -->
+    <EditText
+        android:id="@+id/phoneEditText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneEditText2"
+        android:hint="Phone Number 3"
+        android:backgroundTint="@color/black"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="#6a7274"
+        android:textStyle="italic"
+        android:elevation="20sp"/>
+
+    <!-- Phone Number 4 EditText -->
+    <EditText
+        android:id="@+id/phoneEditText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneEditText3"
+        android:hint="Phone Number 4"
+        android:backgroundTint="@color/black"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="#6a7274"
+        android:textStyle="italic"
+        android:elevation="20sp"/>
+
+    <!-- Phone Number 5 EditText -->
+    <EditText
+        android:id="@+id/phoneEditText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneEditText4"
+        android:hint="Phone Number 5"
+        android:backgroundTint="@color/black"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="#6a7274"
+        android:textStyle="italic"
+        android:elevation="20sp"/>
+
+    <!-- Phone Number 6 EditText -->
+    <EditText
+        android:id="@+id/phoneEditText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneEditText5"
+        android:hint="Phone Number 6"
+        android:backgroundTint="@color/black"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="#6a7274"
+        android:textStyle="italic"
+        android:elevation="20sp"/>
+
+    <!-- Phone Number 7 EditText -->
+    <EditText
+        android:id="@+id/phoneEditText7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneEditText6"
+        android:hint="Phone Number 7"
+        android:textColor="@color/black"
+        android:textColorHint="#6a7274"
+        android:textStyle="italic"
+        android:backgroundTint="@color/black"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:elevation="20sp"/>
+
+    <!-- Phone Number 8 EditText -->
+    <EditText
+        android:id="@+id/phoneEditText8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneEditText7"
+        android:hint="Phone Number 8"
+        android:textColor="@color/black"
+        android:textColorHint="#6a7274"
+        android:textStyle="italic"
+        android:backgroundTint="@color/black"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:elevation="20sp"/>
+
+    <!-- Phone Number 9 EditText -->
+    <EditText
+        android:id="@+id/phoneEditText9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneEditText8"
+        android:hint="Phone Number 9"
+        android:textColor="@color/black"
+        android:textColorHint="#6a7274"
+        android:textStyle="italic"
+        android:backgroundTint="@color/black"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:elevation="20sp"/>
+
+    <!-- Phone Number 10 EditText -->
+    <EditText
+        android:id="@+id/phoneEditText10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneEditText9"
+        android:hint="Phone Number 10"
+        android:textColor="@color/black"
+        android:textColorHint="#6a7274"
+        android:textStyle="italic"
+        android:backgroundTint="@color/black"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:elevation="20sp"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="866dp"
+        android:background="@color/black"
+        android:text="Save"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please add a Women helpline and a nearby police station"
+        android:textSize="20sp"
+        android:textColor="#d14500"
+        android:layout_alignTop="@+id/saveButton"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="10dp"/>
+
+
+
+</RelativeLayout>

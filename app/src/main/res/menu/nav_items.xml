@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navhome"
+        android:icon="@drawable/home"
+        android:title="Home"/>
+
+    <item android:id="@+id/navmaps"
+        android:icon="@drawable/maps"
+        android:title="Maps"/>
+
+    <item android:id="@+id/sheild"
+        android:icon="@drawable/shield"
+        android:title="Sheild"/>
+
+    <item android:id="@+id/search"
+        android:icon="@drawable/loupe"
+        android:title="Search"/>
+
+    <item android:id="@+id/user"
+        android:icon="@drawable/user"
+        android:title="User"/>
+
+
+
+
+</menu>

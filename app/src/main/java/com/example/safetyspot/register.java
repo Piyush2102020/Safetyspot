@@ -85,11 +85,18 @@ public class register extends AppCompatActivity{
                                 databaseReference.child("user").child(phoneTXT).child("password").setValue(passwordTXT);
 
                                 Toast.makeText(register.this,"User Created",Toast.LENGTH_SHORT).show();
+
                                 SharedPreferences pref=getSharedPreferences("login",MODE_PRIVATE);
                                 SharedPreferences.Editor editor= pref.edit();
                                 editor.putBoolean("flag", Boolean.parseBoolean("true"));
+                                editor.apply();
 
                                 startActivity(new Intent(getApplicationContext(),MainActivity.class));
+
+                                SharedPreferences pre = getSharedPreferences("user", MODE_PRIVATE);
+                                SharedPreferences.Editor editor1 = pre.edit();
+                                editor1.putString("phone", phoneTXT);
+                                editor1.apply();
                             }
                         }
 

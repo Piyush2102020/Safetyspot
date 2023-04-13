@@ -7,6 +7,14 @@
     tools:context=".user"
     android:background="@color/white">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="user profile"
+        android:layout_marginTop="420dp"
+        android:layout_marginStart="150dp"
+        android:textSize="24sp"/>
+
 
 
 

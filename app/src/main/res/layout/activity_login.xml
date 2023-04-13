@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".login"
-    android:background="@drawable/greenuserback">
+    android:background="@drawable/bkg">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -38,6 +38,7 @@
         android:layout_marginEnd="35dp"
         android:backgroundTint="@color/textcolour"
         android:hint="Phone"
+        android:textStyle="italic"
         android:gravity="bottom|start"
         android:textColor="@color/textcolour"
         android:textColorHint="@color/textcolour" />
@@ -56,6 +57,7 @@
         android:layout_marginEnd="35dp"
         android:backgroundTint="@color/textcolour"
         android:hint="Password"
+        android:textStyle="italic"
         android:gravity="bottom|start"
         android:textColor="@color/textcolour"
         android:textColorHint="@color/textcolour" />
@@ -82,11 +84,15 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/loginbtn"
         android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_marginStart="79dp"
+        android:layout_marginEnd="50dp"
         android:layout_marginTop="25dp"
-        android:textColor="@color/textcolour"
+        android:textColor="@color/white"
         android:text="No account?Register here"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
 
 
 </RelativeLayout>

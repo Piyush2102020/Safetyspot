@@ -21,7 +21,7 @@
             android:layout_width="309dp"
             android:layout_height="463dp"
             android:text="Main"
-            android:textSize="100sp"/>
+            android:textSize="100sp" />
     </FrameLayout>
 
 

@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         bnview = findViewById(R.id.bnview);
+        loadfrag(new navhome());
 
         bnview.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override

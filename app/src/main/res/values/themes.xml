@@ -3,7 +3,7 @@
     <style name="Theme.SAFETYSPOT" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/blue</item>
-        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="colorPrimaryVariant">@color/orange</item>
         <item name="colorOnPrimary">@color/pale</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/black</item>
